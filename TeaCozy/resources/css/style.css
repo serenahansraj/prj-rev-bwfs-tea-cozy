@@ -1,0 +1,134 @@
+
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*navigation bar*/
+
+#heading {
+  margin: 0px;
+  margin-top: -10px;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+#logo {
+  padding: 10px;
+  display: inline-block;
+  float: left;
+}
+
+nav {
+  display: inline-block;
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+
+a {
+  color: seashell;
+}
+
+#body {
+  padding: 69px;
+}
+
+/*mission statement*/
+
+#intro {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#mission {
+  text-align: center;
+  width: 1200px;
+  background-color: black;
+}
+
+/*Tea Selection*/
+
+#content {
+  padding-top: 69px;
+  padding-bottom: 69px;
+}
+
+#teatypes {
+  width: 1000px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#bedford {
+  margin-left: -325px;
+}
+
+/*locations*/
+
+#loc {
+  padding-top: 15px;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: inline-block;
+}
+
+.loc h2 {
+  padding-bottom: 15px;
+}
+
+.indivloc {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#dwtn {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin-right: 40px;
+}
+
+#bay {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  margin-right: 40px;
+}
+
+#oak {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+/*contact*/
+
+#contact {
+  height: 200px;
+}
+
+/*copyright*/
+
+#copyright {
+  margin-left: 20px;
+  text-align: left;
+}
